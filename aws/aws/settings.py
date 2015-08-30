@@ -25,7 +25,7 @@ SECRET_KEY = '#$eh9zg&or4w@!=85nf7x^niuytv0k65b^+n%5)811m+01y7)s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'awsapp',
-	
+
 )
 
 MIDDLEWARE_CLASSES = (
